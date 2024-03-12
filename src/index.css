@@ -1,0 +1,14 @@
+#posts-index img {
+  width: 300px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: monospace;
+}
+
+h2 {
+  font-style: italic;
+  text-decoration-line: underline;
+  color: ;
+}
