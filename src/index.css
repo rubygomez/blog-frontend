@@ -1,14 +1,40 @@
 #posts-index img {
   width: 300px;
 }
-
+header {
+  color: rgb(233, 193, 73);
+}
+header a {
+  color: rgb(41, 148, 86);
+  font-size: larger;
+}
+header a:visited {
+  color: rgb(219, 133, 104);
+}
+body {
+  background-color: rgb(39, 67, 50);
+}
 html {
   scroll-behavior: smooth;
   font-family: monospace;
+  text-align: center;
 }
 
-h2 {
+h1 {
   font-style: italic;
-  text-decoration-line: underline;
-  color: ;
+  color: rgb(184, 165, 140);
 }
+#posts-new img {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+#posts-new img:hover {
+  transform: scaleX(-1);
+}
+
+/* #posts-new h1, h2{
+  text-align: center;
+} */
