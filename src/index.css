@@ -2,17 +2,29 @@
   width: 300px;
 }
 header {
-  color: rgb(233, 193, 73);
+  background-color: black;
+  padding: 2.5em;
+  margin-top: -1em;
+  margin-left: -2em;
+  margin-right: -1em;
 }
 header a {
-  color: rgb(41, 148, 86);
-  font-size: larger;
+  
+  font-size: x-large;
+  text-decoration:none;
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-right: 1em;
+  margin-top: -.7em;
+  padding: 6px;
+  background-color: rgb(61, 81, 56); opacity: 70%;
+  /* background-color: transparent; */
 }
-header a:visited {
-  color: rgb(219, 133, 104);
+header a:hover {
+  background-color: rgb(106, 134, 78);
 }
 body {
-  background-color: rgb(39, 67, 50);
+  background-repeat: no-repeat;
 }
 html {
   scroll-behavior: smooth;
@@ -24,17 +36,25 @@ h1 {
   font-style: italic;
   color: rgb(184, 165, 140);
 }
-#posts-new img {
+/* #posts-new img {
   border-radius: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 45%;
-}
-#posts-new img:hover {
+} */
+/* #posts-new img:hover {
   transform: scaleX(-1);
-}
+} */
 
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  
+}
 /* #posts-new h1, h2{
   text-align: center;
 } */
